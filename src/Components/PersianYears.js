@@ -1,5 +1,5 @@
 import React from "react";
-import persianNumbers from "../Utility/Persian";
+import { persianNumbers } from "../Utility/Persian";
 
 const PersianYears = ({ start, end, onChange, currentYear }) => {
   start = start || 1380;

@@ -16,7 +16,7 @@ class PersianDate {
       gregorianMonth - 1,
       gregorianDay
     );
-    return this.getPersianWeekIndex()[dayOfWeek];
+    return this.getPersianWeekIndexes()[dayOfWeek];
   }
   getToday() {
     let today = new Date();
