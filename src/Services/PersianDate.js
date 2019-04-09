@@ -20,7 +20,11 @@ class PersianDate {
   }
   getToday() {
     let today = new Date();
-    return toPersian(today.getFullYear(), today.getMonth(), today.getDate());
+    return toPersian(
+      today.getFullYear(),
+      today.getMonth() + 1,
+      today.getDate()
+    );
   }
   getPersianWeekIndexes() {
     return {
